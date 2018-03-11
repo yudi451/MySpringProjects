@@ -1,0 +1,11 @@
+package com.uday.dogdoor;
+
+public class BarkRecognizer {
+	private DogDoor dogDoor;
+	
+	public void recognize(Bark bark) {
+		if(dogDoor.getAllowedBarks().contains(bark)) {
+			dogDoor.open();
+		}
+	}
+}

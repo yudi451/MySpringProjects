@@ -1,0 +1,13 @@
+package com.uday.dogdoor;
+
+public class DogDoorSimulator {
+	public static void main(String[] args) {
+		DogDoor door = new DogDoor();
+		door.addAllowedBarks(new Bark("rowlf"));
+		door.addAllowedBarks(new Bark("roowlf"));
+		door.addAllowedBarks(new Bark("rawlf"));
+		door.addAllowedBarks(new Bark("woof"));
+		
+		BarkRecognizer recognizer = new BarkRecognizer(door);
+	}
+}

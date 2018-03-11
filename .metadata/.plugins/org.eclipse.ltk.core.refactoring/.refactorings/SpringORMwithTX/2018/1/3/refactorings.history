@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.uday.config&apos; to &apos;com.udaysingh.config&apos;&#x0A;- Original project: &apos;SpringORMwithTX&apos;&#x0A;- Original element: &apos;SpringORMwithTX/src/main/java/com.uday.config&apos;&#x0A;- Renamed element: &apos;SpringORMwithTX/src/main/java/com.udaysingh.config&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.uday.config&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;com.uday.config" name="com.udaysingh.config" qualified="false" references="true" stamp="1515909181261" textual="false" version="1.0"/>
+</session>

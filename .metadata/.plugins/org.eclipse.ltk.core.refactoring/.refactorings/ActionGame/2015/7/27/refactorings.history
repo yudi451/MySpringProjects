@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;WeaponBehavior.java&apos; to &apos;ActionGame/src/com.uday.inter&apos;&#x0A;- Original project: &apos;ActionGame&apos;&#x0A;- Destination element: &apos;ActionGame/src/com.uday.inter&apos;&#x0A;- Original element: &apos;com.uday.WeaponBehavior.java&apos;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;com.uday.inter" element1="/src&lt;com.uday{WeaponBehavior.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1436045896766" units="1" version="1.0"/>
+</session>

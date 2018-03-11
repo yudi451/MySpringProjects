@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item value="480" key="width"/>
+		<item value="397" key="x"/>
+		<item value="57" key="y"/>
+		<item value="489" key="height"/>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="/Users/YUDI/Documents/workspace/FitnessTracker"/>
+			<item value="/Users/YUDI/Downloads/SpringORMwithTX"/>
+			<item value="/Users/YUDI/Documents/dev/FitnessTracker"/>
+			<item value="/Users/YUDI/Downloads/jims-master"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="internal" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+		</list>
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="JAXRS-Example"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="JAXRS-Example"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.preferences.RemoteArchetypeCatalogDialog">
+		<list key="catalogUrl">
+			<item value="http://repo1.maven.org/maven2/archetype-catalog.xml"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="my-first-aspect"/>
+			<item value="SpringExample"/>
+			<item value="SpringJDBC"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="org.springframework.samples"/>
+			<item value="org.springframework.samples.SpringJDBCExample"/>
+			<item value="org.uday"/>
+			<item value="org.uday.ExcelParser"/>
+			<item value="org.uday.aspect"/>
+			<item value="org.uday.springexample"/>
+			<item value="org.uday.SpringJDBC"/>
+			<item value="org.uday.SpringREST"/>
+			<item value="org.uday.jersey_webapp"/>
+			<item value="org.uday.Jersey_quickstart"/>
+		</list>
+		<list key="groupId">
+			<item value="org.springframework.samples"/>
+			<item value="org.uday"/>
+		</list>
+		<list key="artifactId">
+			<item value="SpringJDBCExample"/>
+			<item value="CricketApp"/>
+			<item value="ExcelParser"/>
+			<item value="aspect"/>
+			<item value="springexample"/>
+			<item value="SpringJDBC"/>
+			<item value="SpringREST"/>
+			<item value="jersey-webapp"/>
+			<item value="Jersey-quickstart"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.editor.dialogs.ManageDependenciesDialog">
+		<item value="689" key="width"/>
+		<item value="321" key="x"/>
+		<item value="111" key="y"/>
+		<item value="450" key="height"/>
+	</section>
+</section>
