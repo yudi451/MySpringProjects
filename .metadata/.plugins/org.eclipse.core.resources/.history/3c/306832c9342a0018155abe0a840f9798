@@ -1,0 +1,18 @@
+package com.uday.ocppractice.chapter2;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class Frog implements CanHop {
+	
+	public static <A> void main(String[] args) {
+		Map<String, Map<String, String>> map = new HashMap<>();
+		List<? extends A> list = new ArrayList<A>();
+	}
+}
+interface CanHop {
+	
+}
+class TurtleFrog extends Frog {}

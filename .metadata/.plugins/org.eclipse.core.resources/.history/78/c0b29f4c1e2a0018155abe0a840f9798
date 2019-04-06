@@ -1,0 +1,12 @@
+package com.uday.ocppractice.chapter2;
+
+public class Frog implements CanHop {
+	
+	public static void main(String[] args) {
+		CanHop frog = new TurtleFrog();
+	}
+}
+interface CanHop {
+	
+}
+class TurtleFrog extends Frog {}

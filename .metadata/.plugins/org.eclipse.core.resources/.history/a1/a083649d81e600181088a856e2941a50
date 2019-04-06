@@ -1,0 +1,29 @@
+package com.uday.test;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class CarRental {
+	public static void main(String[] args) {
+		Map<TODO,String> m = new HashMap<>();
+		TODO t1 = new TODO("Monday");
+		TODO t2 = new TODO("Monday");
+		TODO t3 = new TODO("Tuesday");
+		m.put(t1, "laundry");
+		m.put(t2, "payBills");
+		m.put(t3, "cleanAttic");
+		System.out.println(m.size());
+	}
+}
+class TODO {
+	String day;
+	TODO(String d) {
+		this.day = d;
+	}
+	public boolean equals(Object o) {
+		return ((TODO)o).day.equals(this.day);
+	}
+	public int hashCode() {
+		return 9;
+	}
+}

@@ -1,0 +1,10 @@
+package com.uday.ocppractice.chapter7;
+
+public class StockRoomTracker {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

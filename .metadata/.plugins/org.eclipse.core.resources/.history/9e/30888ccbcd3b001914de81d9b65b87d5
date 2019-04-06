@@ -1,0 +1,22 @@
+package com.uday.test;
+
+import java.io.IOException;
+
+
+public class Example {
+	static Integer i;
+	public static void main(String[] args) {
+		Animal a = new Dog();
+		a.eat();
+	}
+}
+class Animal {
+	public void eat() throws Exception {
+		System.out.println("Animal eats");
+	}
+}
+class Dog extends Animal {
+	public void eat() {
+		System.out.println("Dog eats");
+	}
+}

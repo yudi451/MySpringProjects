@@ -1,0 +1,14 @@
+package com.uday.adapterpattern;
+
+public class Test {
+
+	public static void main(String[] args) {
+		boolean f = true;
+		if(f = false) {
+			System.out.println("printed");
+		} else if(f) {
+			System.out.println("not");
+		}
+	}
+
+}

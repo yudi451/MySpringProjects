@@ -1,0 +1,42 @@
+package com.uday.ocppractice.chapter2;
+
+public class CheetahManager {
+	public static CheetahManager cheetahManager;
+	private CheetahManager() {
+		
+	}
+	public static CheetahManager getCheetahManager() {
+		if(cheetahManager == null)
+			cheetahManager = new CheetahManager();
+		return cheetahManager;
+	}
+}
+interface CanWalk {
+	default void walk() {
+		System.out.println("Walking");
+	}
+}
+interface CanRun {
+	public default void walk() {
+		System.out.println("Walking");
+	}
+	public abstract void run();
+}
+interface CanSprint extends CanWalk, CanRun {
+	void sprint();
+
+	@Override
+	default void walk() {
+		// TODO Auto-generated method stub
+		CanRun.super.walk();
+	}
+}
+
+interface Secret {
+	String magic(double d);
+}
+class MySecret implements Secret {
+	public String magic(double d) {
+		return "Poof";
+	}
+}

@@ -1,0 +1,21 @@
+package com.uday.test;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class CarRental {
+	public static void main(String[] args) {
+		
+	}
+}
+class Car {
+	public <T extends Number> void makeArrayList(T t) {
+		List<Integer> ints = new ArrayList<>();
+		ints.add((Integer) t);
+		
+		List<Double> doub = new ArrayList<>();
+		doub.add((Double)t);
+		
+		
+	}
+}

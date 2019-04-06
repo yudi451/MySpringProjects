@@ -1,0 +1,14 @@
+package com.uday.test;
+
+import java.lang.Math.pow;
+
+public class Test {
+	
+	public static void main(String[] args) throws InterruptedException {
+		System.out.println(new Date());
+	}
+}
+
+class T extends Date {
+	
+}

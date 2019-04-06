@@ -1,0 +1,16 @@
+package com.uday.test;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class CarRental {
+	public static void main(String[] args) {
+		ArrayList<Integer> input = null;
+		List<Number> output = null;
+		output = process(input);
+	}
+	
+	public static <E extends Number> List<E> process(List<E> nums) {
+		return null;
+	}
+}

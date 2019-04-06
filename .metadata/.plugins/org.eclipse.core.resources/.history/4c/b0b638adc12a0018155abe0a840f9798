@@ -1,0 +1,22 @@
+package com.uday.ocppractice.chapter2;
+
+public class Duck {
+	private String name;
+	private int weight;
+	private String species;
+	
+	public Duck(String species) {
+		if(species == null)
+			throw new IllegalArgumentException();
+		this.species = species;
+	}
+	public int getWeight() {
+		return weight;
+	}
+	public String getName() {
+		return name;
+	}
+	public String getSpecies() {
+		return species;
+	}
+}

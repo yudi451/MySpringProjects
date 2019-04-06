@@ -1,0 +1,28 @@
+package com.uday.restful.web.services.restfulwebservices.helloworld;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.MessageSource;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class HelloWorldContoller {
+	
+	@Autowired
+	private MessageSource messageSource;
+	
+	@GetMapping(path="/hello-world")
+	public String helloWorld() {
+		return "Hello World!";
+	}
+	
+	@GetMapping(path="hello-world-bean")
+	public HelloWorldBean getHelloWorldBean() {
+		return new HelloWorldBean("Hello world bean");
+	}
+	
+	@GetMapping("hello-world-intl")
+	public String internationalized(Locale locale) {
+		return messageSource.getMessage(arg0, arg1)
+	}
+}

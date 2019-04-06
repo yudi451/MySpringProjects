@@ -1,0 +1,16 @@
+package com.uday.ocppractice.chapter8;
+
+import java.io.Console;
+import java.io.IOException;
+
+public class Chapter8Test {
+
+	public static void main(String[] args) throws IOException {
+		Console console = System.console();
+		if(console != null) {
+			String input = console.readLine();
+			console.writer().println("you entered: " +input);
+		}
+	}
+
+}

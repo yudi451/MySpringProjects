@@ -1,0 +1,7 @@
+package com.uday.restful.web.services.restfulwebservices;
+
+public class HelloWorldBean {
+	private String message;
+	
+	
+}

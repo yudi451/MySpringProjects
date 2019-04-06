@@ -1,0 +1,15 @@
+package com.uday.ocppractice.chapter2;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Frog implements CanHop {
+	
+	public static void main(String[] args) {
+		Map<String, Map<String, String>> map = new HashMap<>();
+	}
+}
+interface CanHop {
+	
+}
+class TurtleFrog extends Frog {}

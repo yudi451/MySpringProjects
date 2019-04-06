@@ -1,0 +1,26 @@
+package com.uday.restful.web.services.restfulwebservices.controller;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.uday.restful.web.services.restfulwebservices.model.Employee;
+
+@RestController
+public class TestController {
+	private List<Employee> employees = createList();
+	
+	@RequestMapping(value="/employees", method=RequestMethod.GET, produces="application/json")
+	public List<Employee> firstPage() {
+		return employees;
+	}
+
+	private List<Employee> createList() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+}

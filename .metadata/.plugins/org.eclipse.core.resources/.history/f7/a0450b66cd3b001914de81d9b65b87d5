@@ -1,0 +1,20 @@
+package com.uday.test;
+
+import java.io.IOException;
+
+
+public class Example {
+	static Integer i;
+	public static void main(String[] args) {
+		try {
+			System.out.println(i.toString());
+		} catch(RuntimeException e) {
+			System.out.println("in catch");
+			throw e;
+		} catch(Exception e) {
+			System.out.println("in exception");
+		} finally {
+			System.out.println("finally");
+		}
+	}
+}

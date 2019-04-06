@@ -1,0 +1,14 @@
+package com.uday.test;
+
+import java.lang.Math.*;
+
+public class Test {
+	final int j;
+	
+	public static void main(String[] args) {
+		Test test = new Test();
+		System.out.println(test.j);
+	}
+}
+
+

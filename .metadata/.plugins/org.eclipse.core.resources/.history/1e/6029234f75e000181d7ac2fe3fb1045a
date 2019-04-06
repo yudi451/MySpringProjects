@@ -1,0 +1,21 @@
+package com.uday.test;
+
+import java.util.Comparator;
+import java.util.PriorityQueue;
+
+
+public class Example {
+	static class PQSort implements Comparator<Integer> {
+		public int compare(Integer one, Integer two) {
+			return two-one;
+		}
+	}
+	public static void main(String[] args) {
+		int[] ia = {1,5,3,7,6,9,8};
+		PQSort pqSort = new PQSort();
+		PriorityQueue<Integer> pq2 = new PriorityQueue<>(4,pqSort);
+		for(int x:ia)
+			pq2.offer(x);
+		System.out.println(pq2);
+	}
+}

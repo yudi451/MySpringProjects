@@ -1,0 +1,11 @@
+package com.uday.restful.web.services.restfulwebservices;
+
+import org.springframework.web.bind.annotation.RequestMethod;
+
+public class HelloWorldContoller {
+	
+	@RequestMapping(method=RequestMethod.GET, path="/hello-world")
+	public String helloWorld() {
+		return "Hello World!";
+	}
+}

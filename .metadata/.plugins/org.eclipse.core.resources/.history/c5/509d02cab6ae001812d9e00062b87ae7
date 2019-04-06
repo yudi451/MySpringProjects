@@ -1,0 +1,11 @@
+package com.uday.ocppractice.chapter9;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+public class Chapter9Test {
+	public final static int MAX_VALUE = 180;
+	
+}

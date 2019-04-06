@@ -1,0 +1,17 @@
+package com.uday.test;
+
+import java.time.temporal.ChronoUnit;
+
+import java.time.Duration;
+
+
+public class Example {
+
+	public static void main(String[] args) {
+		String m1 = Duration.of(1, ChronoUnit.MINUTES).toString();
+		String m2 = Duration.ofMinutes(1).toString();
+		String s = Duration.of(60, ChronoUnit.SECONDS).toString();
+		
+		System.out.println(m1.equals(m2));
+	}
+}

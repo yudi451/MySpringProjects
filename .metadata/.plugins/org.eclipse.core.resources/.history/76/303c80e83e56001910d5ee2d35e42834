@@ -1,0 +1,44 @@
+package com.uday.restful.web.services.restfulwebservices.controller;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.uday.restful.web.services.restfulwebservices.model.Employee;
+
+@RestController
+public class TestController {
+	private List<Employee> employees = createList();
+	
+	@RequestMapping(value="/employees", method=RequestMethod.GET, produces="application/json")
+	public List<Employee> firstPage() {
+		return employees;
+	}
+
+	private List<Employee> createList() {
+		List<Employee> emps = new ArrayList<>();
+		Employee e1 = new Employee();
+		e1.setEmpId("1");
+		e1.setName("uday");
+		e1.setDesignation("engineer");
+		
+		Employee e2 = new Employee();
+		e2.setEmpId("2");
+		e2.setDesignation("champion");
+		e2.setName("Avyan");
+		
+		Employee e3 = new Employee();
+		e3.setEmpId("3");
+		e3.setDesignation("QA");
+		e3.setName("Anita");
+		
+		emps.add(e1); emps.add(e2); emps.add(e3);
+		
+		return emps;
+	}
+	
+	
+}

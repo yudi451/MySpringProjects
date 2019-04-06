@@ -39,6 +39,8 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/Users/YUDI/Documents/Spring Boot/restful-web-services"/>
+			<item value="/Users/YUDI/Documents/Spring Boot/jpa-in-10-steps"/>
 			<item value="/Users/YUDI/Documents/workspace/FitnessTracker"/>
 			<item value="/Users/YUDI/Downloads/SpringORMwithTX"/>
 			<item value="/Users/YUDI/Documents/dev/FitnessTracker"/>

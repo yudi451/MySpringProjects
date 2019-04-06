@@ -1,0 +1,15 @@
+package com.uday.ocppractice.chapter2;
+
+public class Climber {
+
+	public static void main(String[] args) {
+		check((h,l) -> h.toString(), 5);
+	}
+	private static void check(Climb climb, int height) {
+		
+	}
+
+}
+interface Climb {
+	boolean isTooHigh(int height, int limit);
+}

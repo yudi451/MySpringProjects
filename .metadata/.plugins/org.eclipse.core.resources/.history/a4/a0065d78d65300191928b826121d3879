@@ -1,0 +1,5 @@
+package com.uday.learning.jpa.jpain10steps;
+
+public class UserDaoServiceCommandLineRunner {
+
+}

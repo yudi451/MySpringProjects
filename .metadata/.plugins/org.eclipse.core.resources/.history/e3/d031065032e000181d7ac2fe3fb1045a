@@ -1,0 +1,14 @@
+package com.uday.test;
+
+import java.time.ZoneId;
+import java.time.ZonedDateTime;
+
+
+public class Example {
+
+	public static void main(String[] args) {
+		ZoneId.getAvailableZoneIds().stream()
+			.filter(x -> x.contains("Chennai"))
+			.sorted().forEach(System.out::println);
+	}
+}

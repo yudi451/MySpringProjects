@@ -1,0 +1,13 @@
+package com.uday.ocppractice.chapter2;
+
+public class CheetahManager {
+	public static CheetahManager cheetahManager;
+	private CheetahManager() {
+		
+	}
+	public static CheetahManager getCheetahManager() {
+		if(cheetahManager == null)
+			cheetahManager = new CheetahManager();
+		return cheetahManager;
+	}
+}

@@ -1,0 +1,27 @@
+package com.uday.ocppractice.chapter9;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+public class Chapter9Test {
+	static String s = "";
+	public static void main(String[] args) {
+		try {
+			s += "1";
+		} catch(Exception e) {
+			s += "2";
+		} finally {
+			s += "3";
+			doStuff();
+			s += "4";
+		}
+		System.out.println(s);
+	}
+	static void doStuff() {
+		int x = 0;
+		int y = 7/x;
+	}
+	
+}

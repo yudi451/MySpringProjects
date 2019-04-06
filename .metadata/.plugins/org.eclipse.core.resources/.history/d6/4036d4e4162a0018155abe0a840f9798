@@ -1,0 +1,10 @@
+package com.uday.ocppractice.chapter2;
+
+public class Climber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
